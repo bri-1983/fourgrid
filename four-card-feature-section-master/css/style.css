@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  background: whitesmoke;
+}
+
+.top-header {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: slategray;
+}
+.bottom-header {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.main-paragraph {
+  text-align: center;
+  color: lightslategrey;
+  font-size: 0.8rem;
+  width: 50%;
+  margin: auto;
+}
+.boxes {
+  position: relative;
+  height: 100vh;
+}
+p {
+  color: slategray;
+  font-size: 0.8rem;
+}
+.green-box {
+  border-top: solid rgb(37, 240, 155) 4px;
+  width: 300px;
+  position: absolute;
+  right: 500px;
+  margin-top: 80px;
+  height: 220px;
+  background: white;
+  box-shadow: 5px 5px 5px lightgray;
+  border-radius: 3px;
+}
+.green-text {
+  padding: 12px;
+}
+.search-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 0 10px 200px;
+}
+.red-box {
+  border-top: solid red 4px;
+  width: 300px;
+  position: absolute;
+  left: 150px;
+  top: 200px;
+  height: 220px;
+  background: white;
+  box-shadow: 5px 5px 5px lightgray;
+  border-radius: 3px;
+}
+.red-text {
+  padding: 12px;
+}
+.work-image {
+  width: 80px;
+  height: 70px;
+  margin-left: 200px;
+}
+.yellow-box {
+  border-top: solid rgb(228, 210, 53) 4px;
+  width: 300px;
+  position: absolute;
+  right: 500px;
+  top: 300px;
+  height: 220px;
+  margin-top: 20px;
+  background: white;
+  box-shadow: 5px 5px 5px lightgray;
+  border-radius: 3px;
+}
+.yellow-text {
+  padding: 12px;
+}
+.idea-image {
+  width: 80px;
+  height: 70px;
+  margin-left: 200px;
+}
+.blue-box {
+  border-top: solid rgb(56, 136, 211) 4px;
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  right: 170px;
+  height: 220px;
+  text-align: left;
+  background: white;
+  box-shadow: 5px 5px 5px lightgray;
+  border-radius: 3px;
+}
+.blue-text {
+  padding: 12px;
+}
+.computer-screen {
+  width: 80px;
+  height: 70px;
+  margin-left: 200px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
